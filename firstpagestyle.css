@@ -1,0 +1,41 @@
+body {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("firstpage_background.gif");
+}
+
+h1 {
+    color: hotpink;
+    text-indent: 4em; /*首行缩进*/
+    font-family: "微软雅黑";
+    font-size: 50px;
+}
+
+a {
+    color: darkslateblue;
+    padding: 10px 350px;
+    font-family: "微软雅黑";
+    font-size: 25px;
+}
+
+form {
+    padding: 6px 180px;
+    text-align: right;
+    width: 500px;
+    vertical-align: top;
+    color: hotpink;
+    font-family: "微软雅黑";
+    font-size: 28px;
+}
+
+table {
+    width: 600px;
+    text-align: center;
+    color: blue;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: auto;
+    background-color: rgb(255,255,255,0.8);
+    opacity: 0.8;
+}

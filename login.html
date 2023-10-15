@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang=" zh-cn"><!--HTML根元素-,语言设置属性lang 属性名="属性值"-->
+
+<head>
+    <!--页面头-->
+    <meta charset="UTF-8"><!--元信息,字符编码-->
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>用户登录界面</title><!--文档标题-->
+</head>
+
+<style>
+    a{
+    text-decoration: none;
+}
+body{
+    background-image: url('./lasa.png')  ;
+background-size: cover;
+background-position-x: center;
+background-position-y: -65px;
+}
+
+.登入块{
+width: 200px;
+height: 350px;
+background-color: rgb(234, 238, 241,0.8);
+padding: 40px;
+border: 1px solid #000;
+margin: 130px 50px 46px 1100px ;
+
+}
+</style>
+
+<body>
+    <!-- <h1>登录成都工业学院</h1>
+    <form action="./cgi-bin/login_sqlite">
+        姓名: <input type="text" placeholder="请输入用户名" name="username"><br>
+        密码: <input type="password" placeholder="请输入密码" name="password"><br>
+        <input type="submit" value="登录" >
+       <a href="./logon.html">注册</a>
+    </form> -->
+    <form class="登入块" action="./cgi-bin/login_sqlite">
+        用户名：<input type="text" placeholder="请输入用户名" name="username">
+        <br> 
+        
+        <br>
+        密码：<input type="password" placeholder="请输入密码" name="password">
+        <br>
+        <br>
+        向往的省份：<select>
+            <option>四川</option>
+            <option>北京 </option>
+            <option>西藏</option>
+            <option>新疆</option>
+            <option>另外</option>
+        </select>
+        <br>
+        <br>
+         <br>
+        <br>
+         <input type="submit" value="登入" > &nbsp;
+         <a href="./logon.html" target="_blank">注册</a>
+        <br>
+        <br>
+        <input type="checkbox" >我同意 <a href="./zhu_shi.html" target="_blank">注册条款</a>
+    </form>
+</body>
+
+</html>

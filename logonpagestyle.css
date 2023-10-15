@@ -1,0 +1,36 @@
+body {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image: url("login_background.gif");
+}
+
+h1 {
+    color: hotpink;
+    text-indent: 13em; /*首行缩进*/
+    font-family: "微软雅黑";
+    font-size: 35px;
+}
+
+h2 {
+    color: hotpink;
+    text-indent: 14em; /*首行缩进*/
+    font-family: "微软雅黑";
+    font-size: 28px;
+}
+
+h3 {
+    color: hotpink;
+    text-indent: 17em; /*首行缩进*/
+    font-family: "微软雅黑";
+    font-size: 28px;
+}
+
+form {
+    padding: 6px 215px;
+    text-align: right;
+    width: 500px;
+    vertical-align: top;
+    color: hotpink;
+    font-family: "微软雅黑";
+    font-size: 28px;
+}
